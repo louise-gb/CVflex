@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+
+html{
+    background: white;
+}
+
+body{
+
+    background: rgb(133, 141, 148);
+    width: 80%;
+    margin:auto; 
+}
+
+main{
+    background: pink;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+section{
+    background: rgb(63, 63, 213);
+    border: 2px solid yellow;
+    border-radius: 15px;
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+section ul {
+    text-indent: 25px;
+    list-style-position: inside;
+}
+
+#xp{
+    background: red;
+}
+
+h1{
+
+    text-transform: uppercase;
+}
+
+img{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+
+}
+
+h1,h2{
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* *****************    Media queries ******************* */
+
+@media screen and (max-width: 700px){
+    img{ position:unset;
+        display: block;
+        margin:auto;
+    }
+
+}
+
+p{
+    margin: 20px 0 ;
+}
