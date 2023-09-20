@@ -6,10 +6,13 @@
 
 
 html{
-    background: white;
+    background-image:url(greyycopie.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body{
+
 
     background: rgb(133, 141, 148);
     width: 80%;
