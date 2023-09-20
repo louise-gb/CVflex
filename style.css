@@ -6,7 +6,7 @@
 
 
 html{
-    background-image:url(greyycopie.jpeg);
+    background: lightgrey;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -14,13 +14,13 @@ html{
 body{
 
 
-    background: rgb(133, 141, 148);
+    background-image: url(greyY.jpeg);
     width: 80%;
     margin:auto; 
 }
 
 main{
-    background: pink;
+    background: grey;
     width: 90%;
     margin: auto;
     display: flex;
@@ -29,7 +29,7 @@ main{
 }
 
 section{
-    background: rgb(63, 63, 213);
+    background:lightgray;
     border: 2px solid yellow;
     border-radius: 15px;
     width: 300px;
@@ -38,10 +38,21 @@ section{
 
 }
 
+h1{
+color: black;
+    text-align: center;
+    text-shadow: 2px 2px white;
+    font-size: 10ch;
+    font-family: 'Lugrasimo', cursive;
+
+}
+
 section ul {
     text-indent: 25px;
     list-style-position: inside;
 }
+
+
 
 #xp{
     background: red;
@@ -76,4 +87,9 @@ h1,h2{
 
 p{
     margin: 20px 0 ;
+}
+
+@font-face {
+    font-family: 'Lugrasimo', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
 }
