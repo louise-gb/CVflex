@@ -20,7 +20,7 @@ body{
 }
 
 main{
-    background: grey;
+    background-image: url(greyY.jpeg);
     width: 90%;
     margin: auto;
     display: flex;
@@ -88,6 +88,8 @@ h1,h2{
 p{
     margin: 20px 0 ;
 }
+
+
 
 @font-face {
     font-family: 'Lugrasimo', cursive;
